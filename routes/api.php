@@ -4,11 +4,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\API\StudentsController;
-use App\Http\Controllers\API\CoursesController;
-use App\Http\Controllers\API\LecturersController;
-use App\Http\Controllers\API\EnrollmentController;
-use App\Http\Controllers\API\CourseLecturersController;
+use App\Http\Controllers\StudentsController;
+use App\Http\Controllers\CoursesController;
+use App\Http\Controllers\LecturersController;
+use App\Http\Controllers\EnrollmentController;
+use App\Http\Controllers\CourseLecturersController;
 use App\Http\Controllers\UserController;
 
 Route::post('/login', [AuthController::class, 'login']);
